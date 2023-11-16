@@ -1,21 +1,35 @@
-# Ex02-Outlier
-# AIM:
+# Ex NO : 02 Outlier Detection and Removal
+
+## DATE : 14/09/2023
+
+## AIM:
 To read a given dataset and remove outliers and save a new dataframe.
 
-# ALGORITHM:
-(1) Remove outliers using IQR
+## ALGORITHM:
 
-(2) After removing outliers in step 1, you get a new dataframe.
+### STEP 1:
+ Remove outliers using IQR
 
-(3) use zscore of 3 to remove outliers. This is quite similar to IQR and you will get exact same result
+### STEP 2:
+After removing outliers in step 1, you get a new dataframe.
 
-(4) for the data set height_weight.csv find the following
+### STEP 3:
+use zscore of 3 to remove outliers. This is quite similar to IQR and you will get exact same result
 
-(i) Using IQR detect weight outliers and print them
+### STEP 4:
+for the data set height_weight.csv find the following
 
-(ii) Using IQR, detect height outliers and print them
+### STEP 5:
+Using IQR detect weight outliers and print them
 
-# PROGRAM:
+### STEP 6
+:Using IQR, detect height outliers and print them
+
+## CODE:
+DEVELOPED BY : SYED JAVEED H
+
+REGISTER NO : 212221220055
+```
 import pandas as pd
 
 import numpy as np
@@ -101,8 +115,8 @@ def d_o(val):
   op = d_o(val)
 
   op
-
-  # OUTPUT:
+```
+  ## OUTPUT:
 
   ![image](https://github.com/Yugendaran/ODD2023---Datascience---Ex-02/assets/128135616/ce20a1d1-83d7-4ba9-ba68-d1b6a6a9fc74)
 
@@ -125,7 +139,7 @@ def d_o(val):
   ![image](https://github.com/Yugendaran/ODD2023---Datascience---Ex-02/assets/128135616/bb55307b-ca2e-447a-9cba-f1a18fcf8066)
 
 
-  # RESULT:
+  ## RESULT:
   Thus, the given data is read,remove outliers and save a new dataframe was created and executed successfully.
 
 
